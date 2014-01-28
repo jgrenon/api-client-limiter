@@ -1,0 +1,22 @@
+{
+  "name": "api-client-limiter",
+  "version": "0.1.0",
+  "author": "Joel Grenon <jgrenon@covistra.com>",
+  "description": "Simple function wrapper queuing and limiting the number of calls to a function. Ideal for Rest API call limiting compliance.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgrenon/api-client-limiter.git"
+  },
+  "main": "./limiter",
+  "keywords": [
+    "api",
+    "rate",
+    "limiter",
+    "client",
+    "queue"
+  ],
+  "dependencies": {
+    "async": "~0.2.10"
+  },
+  "license": "Apache V2.0"
+}
